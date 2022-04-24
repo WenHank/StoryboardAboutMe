@@ -1,0 +1,18 @@
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeImg{
+    width: 25%;
+} 
+@media (max-width:1200px) {
+    .homeImg{
+        width: 70%;
+    } 
+}
+@media (max-width:600px) {
+    .homeImg{
+        width: 100%;
+    } 
+}
