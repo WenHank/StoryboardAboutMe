@@ -35,7 +35,7 @@ function header() {
           OC
         </Link>
       </label>
-      <ul>
+      <ul className="headerul">
         <li>
           <Link
             to="About"

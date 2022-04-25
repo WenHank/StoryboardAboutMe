@@ -10,7 +10,11 @@ label.logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-}nav ul{
+}
+.logo a:hover{
+    color: black;
+}
+nav ul{
     float: right;
     margin-right: 20px;
 }
@@ -56,7 +60,7 @@ ul a.active,ul a:hover{
     .checkbtn{
         display: block;
     }
-    ul{
+    .headerul{
         position: fixed;
         width: 100%;
         height: 100vh;

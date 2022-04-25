@@ -24,6 +24,12 @@
     position: relative;    
     display: inline-block;
 }
+.card-text{
+    color: darkgrey;
+}
+.contactImg img{
+    margin-right: 5px;
+}
 @media (max-width:1200px) {
     .aboutcontainer{
        flex-direction: column;
