@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .timeline {
+    margin-top: 30px;
     width: 80%;
     height: auto;
     max-width: 800px;
-    margin: 0 auto;
     position: relative;
   }
   
@@ -95,6 +96,7 @@
     .timeline-content .date {
       position: absolute;
       top: -30px;
+      color: black;
     }
     .timeline ul li:hover::before {
       background-color: aqua;

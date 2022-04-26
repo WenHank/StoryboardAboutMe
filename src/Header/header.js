@@ -32,7 +32,7 @@ function header() {
             open = 0;
           }}
         >
-          OC
+          <img className="icon" src="./Img/icon.jpeg" />
         </Link>
       </label>
       <ul className="headerul">
@@ -46,18 +46,6 @@ function header() {
             }}
           >
             About OC
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="Member"
-            onClick={() => {
-              let ul = document.querySelector("ul");
-              ul.style.left = "-100%";
-              open = 0;
-            }}
-          >
-            Member
           </Link>
         </li>
         <li>
@@ -81,7 +69,19 @@ function header() {
               open = 0;
             }}
           >
-            Make
+            Timeline
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="Member"
+            onClick={() => {
+              let ul = document.querySelector("ul");
+              ul.style.left = "-100%";
+              open = 0;
+            }}
+          >
+            Member
           </Link>
         </li>
       </ul>

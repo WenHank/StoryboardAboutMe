@@ -33,6 +33,7 @@ function Make() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="makecontainer">
+      <h1 className="title">Timeline</h1>
       <div className="timeline">
         <ul>
           <li>
@@ -58,6 +59,9 @@ function Make() {
                 Consectetur tempora ab laudantium voluptatibus aut eos placeat
                 laborum, quibusdam exercitationem labore.
               </p>
+              <Button variant="light" onClick={() => setModalShow(true)}>
+                See picture
+              </Button>
             </div>
           </li>
           <li>
@@ -69,6 +73,9 @@ function Make() {
                 Consectetur tempora ab laudantium voluptatibus aut eos placeat
                 laborum, quibusdam exercitationem labore.
               </p>
+              <Button variant="light" onClick={() => setModalShow(true)}>
+                See picture
+              </Button>
             </div>
           </li>
           <li>
@@ -80,6 +87,9 @@ function Make() {
                 Consectetur tempora ab laudantium voluptatibus aut eos placeat
                 laborum, quibusdam exercitationem labore.
               </p>
+              <Button variant="light" onClick={() => setModalShow(true)}>
+                See picture
+              </Button>
             </div>
           </li>
           <li>
@@ -91,6 +101,9 @@ function Make() {
                 Consectetur tempora ab laudantium voluptatibus aut eos placeat
                 laborum, quibusdam exercitationem labore.
               </p>
+              <Button variant="light" onClick={() => setModalShow(true)}>
+                See picture
+              </Button>
             </div>
           </li>
         </ul>

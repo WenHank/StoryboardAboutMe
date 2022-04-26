@@ -4,12 +4,16 @@ nav{
 }
 ul{
     z-index: 2;
+    padding-left: 0;
 }
 label.logo{
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+}
+.icon{
+    width: 30px;
 }
 .logo a:hover{
     color: black;

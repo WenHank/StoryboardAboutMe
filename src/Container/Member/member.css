@@ -1,0 +1,74 @@
+.membercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sgroup{
+    display: flex;
+    flex-direction: row;
+}
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.card{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px black;
+    border: none;
+    padding: 10px;
+    display: flex;
+    position: relative;    
+    display: inline-block;
+}
+.card-text{
+    color: darkgrey;
+}
+.contactImg img{
+    margin-right: 5px;
+}
+@media (max-width:1200px) {
+    .membercontainer{
+       flex-direction: column;
+       position: relative;    
+       display: inline-block;
+    }
+    .card{
+        margin-bottom: 20px;
+        margin-right: 20px;
+        box-shadow: 0 0 5px black;
+        border: none;
+        padding: 10px;
+        display: flex;
+        position: relative;    
+        display: inline-block;
+    }
+}
+@media (max-width:600px) {
+    .membercontainer{
+        flex-direction: column;
+        display: flex;
+        /* position: relative;    
+        display: inline-block;
+        margin-left: 15%; */
+        justify-content: center;
+        align-items: center;
+     }
+     .card{
+         margin-bottom: 20px;
+         margin-right: 20px;
+         box-shadow: 0 0 5px black;
+         border: none;
+         padding: 10px;
+         display: flex;
+         position: relative;    
+         display: inline-block;
+     }
+     .sgroup{
+        display: flex;
+        flex-direction: column;
+    }
+}
