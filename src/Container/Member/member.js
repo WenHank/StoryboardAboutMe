@@ -6,7 +6,7 @@ function member() {
     <div className="membercontainer">
       <h1 className="title">Member</h1>
       <div className="sgroup">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>Wen</Card.Title>
@@ -31,7 +31,7 @@ function member() {
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>貝貝</Card.Title>
@@ -50,7 +50,7 @@ function member() {
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>任力加</Card.Title>
@@ -71,7 +71,7 @@ function member() {
         </Card>
       </div>
       <div className="sgroup">
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>涂紜瑄</Card.Title>
@@ -90,7 +90,7 @@ function member() {
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>蒲芳榆</Card.Title>
@@ -109,7 +109,7 @@ function member() {
             </div>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src="/Img/wen.JPG" />
           <Card.Body>
             <Card.Title>吳冠緯</Card.Title>

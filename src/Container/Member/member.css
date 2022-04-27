@@ -23,6 +23,7 @@
     display: flex;
     position: relative;    
     display: inline-block;
+    width: 18rem;
 }
 .card-text{
     color: darkgrey;
@@ -34,7 +35,6 @@
     .membercontainer{
        flex-direction: column;
        position: relative;    
-       display: inline-block;
     }
     .card{
         margin-bottom: 20px;
@@ -45,6 +45,19 @@
         display: flex;
         position: relative;    
         display: inline-block;
+    }
+}
+@media (max-width:900px) {
+    .card{
+        margin-bottom: 20px;
+        margin-right: 20px;
+        box-shadow: 0 0 5px black;
+        border: none;
+        padding: 10px;
+        display: flex;
+        position: relative;    
+        display: inline-block;
+        width: 240px;
     }
 }
 @media (max-width:600px) {
@@ -66,6 +79,7 @@
          display: flex;
          position: relative;    
          display: inline-block;
+         width: 18rem;
      }
      .sgroup{
         display: flex;

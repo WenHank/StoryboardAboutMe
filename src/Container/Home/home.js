@@ -7,7 +7,7 @@ function Home() {
   useEffect(() => {
     setThewidth(document.body.clientWidth);
   }, [thewidth]);
-  if (thewidth < 500) {
+  if (thewidth < 1200) {
     imgurl = "/Img/home2.jpeg";
   }
   return (

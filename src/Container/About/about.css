@@ -27,7 +27,13 @@
 .aboutgroup-container{
     border-top: 3px solid black;
 }
-@media (max-width:858px) {
+@media (max-width:900px) {
+    .aboutgroup{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+}
+@media (max-width:600px) {
    .abouttitle{
        display: flex;
    }
