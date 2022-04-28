@@ -8,8 +8,7 @@ function header() {
     <nav>
       <input type="checkbox" id="check"></input>
       <label htmlFor="check" className="checkbtn">
-        <i
-          className="fas fa-bars"
+        <div
           onClick={() => {
             let ul = document.querySelector("ul");
             console.log(open);
@@ -21,7 +20,12 @@ function header() {
               open = 1;
             }
           }}
-        ></i>
+        >
+          <img
+            style={{ width: "35px" }}
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAKElEQVRIiWNgGAXDHjAisf/TwmwmKhs6CgYhGE1Fo4ByMJqKRsEQAADWCQMKYvEFtQAAAABJRU5ErkJggg=="
+          />
+        </div>
       </label>
       <label className="logo">
         <Link

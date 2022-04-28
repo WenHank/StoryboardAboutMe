@@ -12,6 +12,9 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
 }
+.fa-bars:before {
+    content: "\f0c9";
+}
 .icon{
     width: 30px;
 }

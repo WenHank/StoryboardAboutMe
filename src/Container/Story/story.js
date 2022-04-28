@@ -90,22 +90,19 @@ function Story() {
               }}
               className={"previous button"}
             >
-              <i className="fas fa-chevron-left"></i>
-            </div>
-            <div className="info-page">
-              {page} - {page + 1}
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA7klEQVRIie3WPUoDURQG0EMwaYO6AdO4h3TptLGyF7ICt2Bl7yK0CLgMK/cgKij+lEKqxLEYAkN4wzTvzkPIB9POYWa+d+eyyz/NHO/4xnkf4D4WqBrXVzQ6w+sWWuEjChziGusE+oOzCHSChwRY4RHHEeiF+om2wV/cYJQbHOMuAVbqbzzLDcIUTy3oPQ5yg3u4wioBLnGZG6RQgU6lC7RWH6FhBArPCTRrgQa5bpQrxV41hcq1SZHj1EzXADmMxMe4bcHDRmYzvf8kmjlSsHhdi8BJJE776vMWDZNe9j71OBnneFEver2st7t05g+3FY1kHntV5gAAAABJRU5ErkJggg==" />
             </div>
             <div
               onClick={() => {
                 book.current.pageFlip().flipNext();
-                if (pageNum < 12) {
+                if (pageNum < 1) {
                   pageNum++;
                   setPage(thepage[pageNum]);
                 }
               }}
               className={"next button"}
             >
-              <i className="fas fa-chevron-right"></i>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA6klEQVRIie3WMUpDQRAG4M+Q2AY9gTbewUqttLIJtqIn8ApW9h5CCyHHsPIOIk8wEcuAlfFZvBSik87ZtcgP2z34ln2zs8Mq/yQneMME56XQtQXaflt32CiBv/6AWzTYy4aPMQvwOa4wyMS3cR/gLR6wk4n3cYmPAH/HRSYOu3gM8BZjbGbiQ9wswRvsZ+JwKi68T1xjPRPfUrHwBrqrNQ/wGQ4zcbp/2wT4U/RxL3s3CzwlVY66Slcrfp2GuA3A1AZygOclaErLrPJIVCmgI5UGgZcATR99en7PXMWGvRGmun57VgJc5c/zBXwXjnKLHYfNAAAAAElFTkSuQmCC" />
             </div>
           </div>
         </div>
