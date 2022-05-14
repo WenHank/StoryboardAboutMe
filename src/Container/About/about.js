@@ -6,18 +6,11 @@ function about() {
     <div className="aboutcontainer">
       <h1 className="title abouttitle">About OC</h1>
       <div className="aboutgroup">
-        <img className="abouticon" src="./Img/icon.jpeg" />
+        <img className="abouticon" src="./Img/home/LOGO.jpg" />
         <div className="abouttext">
           <div className="aboutgroup-title">About</div>
           <div className="aboutgroup-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            tempora ab laudantium voluptatibus aut eos placeat laborum,
-            quibusdam exercitationem labore. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Consectetur tempora ab laudantium
-            voluptatibus aut eos placeat laborum, quibusdam exercitationem
-            labore. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur tempora ab laudantium voluptatibus aut eos placeat
-            laborum, quibusdam exercitationem labore.
+            我們的團隊叫做器官收藏所，是由元智大學資傳系設計以及科技組同學組成。我們的創作目的是為了能夠將資訊以跨媒體傳播給民眾了解，希望以更有創意的方式呈現給大眾。
           </div>
         </div>
       </div>

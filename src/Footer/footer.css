@@ -5,11 +5,17 @@
     align-items: center;
     flex-direction: row;
     border-top: 1px solid rgb(200, 200, 200);
-    margin-top: 20px;
+    margin-top: 30px;
+    display: none;
 }
 .contactImg{
     margin-right: 10px;
 } 
+.contactgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .triangle{
     width: 0;
     height: 0;
@@ -17,9 +23,8 @@
     border-color: transparent transparent transparent #fbb034;
     transform: rotate(90deg);
 }
-@media (max-width:1200px) {
-   
-}
 @media (max-width:600px) {
-  
+  .footercontainer{
+      margin-top: 20px;
+  }
 }

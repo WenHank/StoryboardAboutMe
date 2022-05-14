@@ -36,7 +36,7 @@ function header() {
             open = 0;
           }}
         >
-          <img className="icon" src="./Img/icon.jpeg" />
+          <img className="icon" src="./Img/home/LOGO.jpg" />
         </Link>
       </label>
       <ul className="headerul">
@@ -62,6 +62,18 @@ function header() {
             }}
           >
             Story
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="Color"
+            onClick={() => {
+              let ul = document.querySelector("ul");
+              ul.style.left = "-100%";
+              open = 0;
+            }}
+          >
+            Color scheme
           </Link>
         </li>
         <li>

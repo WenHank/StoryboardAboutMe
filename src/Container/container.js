@@ -6,6 +6,7 @@ import Member from "./Member/member";
 import Make from "./Make/make";
 import Story from "./Story/story";
 import Home from "./Home/home";
+import Color from "./Color/color";
 import Header from "../Header/header";
 import Footer from "../Footer/footer";
 function container() {
@@ -19,6 +20,7 @@ function container() {
           <Route path="/Member" element={<Member />} />
           <Route path="/Make" element={<Make />} />
           <Route path="/Story" element={<Story />} />
+          <Route path="/Color" element={<Color />} />
         </Routes>
         <Footer />
       </Router>
