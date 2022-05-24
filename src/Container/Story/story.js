@@ -6,6 +6,7 @@ import { Button } from "react-bootstrap";
 import useWindowWide from "./usewidth";
 
 let draft = [
+  "/Img/Draft/cover.jpg",
   "/Img/Draft/page1-2.jpg",
   "/Img/Draft/page3-4.jpg",
   "/Img/Draft/page5-6.jpg",
@@ -19,8 +20,10 @@ let draft = [
   "/Img/Draft/page21-22.jpg",
   "/Img/Draft/page23-24.jpg",
   "/Img/Draft/page25-26.jpg",
+  "/Img/Draft/backcover.jpg",
 ];
 let final = [
+  "/Img/Final/cover.jpg",
   "/Img/Final/page1-2.jpg",
   "/Img/Final/page3-4.jpg",
   "/Img/Final/page5-6.jpg",
@@ -34,6 +37,7 @@ let final = [
   "/Img/Final/page21-22.jpg",
   "/Img/Final/page23-24.jpg",
   "/Img/Final/page25-26.jpg",
+  "/Img/Final/backcover.jpg",
 ];
 let object = [
   "/Img/object/object1.jpg",
@@ -135,6 +139,12 @@ function Story() {
           </div>
           <div className="page">
             <img src={arr[12]} alt="person" />
+          </div>
+          <div className="page">
+            <img src={arr[13]} alt="person" />
+          </div>
+          <div className="page">
+            <img src={arr[14]} alt="person" />
           </div>
         </HTMLFlipBook>
       );

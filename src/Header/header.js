@@ -64,7 +64,7 @@ function header() {
             Story
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="Color"
             onClick={() => {
@@ -75,7 +75,7 @@ function header() {
           >
             Color scheme
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to="Make"

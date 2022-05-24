@@ -105,18 +105,37 @@ function Color(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <Carousel fade>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/Img/color/color1.jpg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/Img/color/color2.jpg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/Img/color/color3.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="/Img/color/color4.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="outline-dark" onClick={props.onHide}>
@@ -217,9 +236,9 @@ function Make() {
               <p>
                 故事書我們以單面橫式的方式印刷，印刷裝訂完成後將設計完成的物件以及NFC感應拼裝結合到故事書中，精修調整至作品完成。
               </p>
-              <Button variant="light" onClick={() => setModalFinalShow(true)}>
+              {/* <Button variant="light" onClick={() => setModalFinalShow(true)}>
                 See picture
-              </Button>
+              </Button> */}
             </div>
           </li>
         </ul>
